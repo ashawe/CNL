@@ -1,3 +1,8 @@
+## INDEX
+ [List of Assignments](#list-of-assignments)
+ [Study Plan](#study-plan)
+
+
 # List of assignments:
 
 ### A1 ) Wired & Wireless lan
