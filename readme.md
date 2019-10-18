@@ -80,7 +80,7 @@
 Each topics will have additional study materials and links inside their respective folders.
 
 - [ ] Error Detection. Hamming Codes. CRC Codes.
-    - [ ] Hamming & CRC ( C++ )
+    - [x] Hamming & CRC ( C++ )
 - [ ] Subnetting
     - [ ] Subnetting Program ( C++)
 - [ ] Sliding Window
