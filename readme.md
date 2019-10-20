@@ -79,10 +79,10 @@
 # Study Plan
 Each topics will have additional study materials and links inside their respective folders.
 
-- [ ] Error Detection. Hamming Codes. CRC Codes.
+- [x] Error Detection. Hamming Codes. CRC Codes.
     - [x] Hamming & CRC ( C++ )
-- [ ] Subnetting
-    - [ ] Subnetting Program ( C++)
+- [x] Subnetting
+    - [x] Subnetting Program ( Java )
 - [ ] Sliding Window
     - [ ] Go Back N ( C++ / Java )
     - [ ] Sliding Window ( C++ / Java )
