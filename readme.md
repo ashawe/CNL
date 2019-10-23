@@ -93,16 +93,16 @@ Each topics will have additional study materials and links inside their respecti
 - [ ] UDP & TCP Programming in JAVA
     - [ ] Peer to Peer Chat
     - [ ] Multi User Chat
-- [ ] What is TCL & Syntax of TCL
+- [x] What is TCL & Syntax of TCL
 - [ ] NS2
-    - [ ] Simple with 3 nodes: TCP/FTP
-    - [ ] Complex ( TCP as well as UDP )
-        - [ ] Star Topology
-        - [ ] Bus Topology
-- [ ] Packet Tracer
+    - [x] NS2 Basics
+    - [x] Simple with 3 nodes: TCP/FTP
+    - [x] Complex ( TCP as well as UDP )
+        - [x] Star Topology
+- [x] Packet Tracer
     - [x] Simple topology
-    - [ ] Complex topology
-    - [ ] RIP, OSPF, BGP
+    - [x] Complex topology
+    - [x] RIP, OSPF, BGP
 - [x] DHCP
     - [x] Installation
     - [x] SSH using terminal
