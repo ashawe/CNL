@@ -85,7 +85,7 @@ Each topics will have additional study materials and links inside their respecti
     - [x] Subnetting Program ( Java )
 - [ ] Sliding Window
     - [ ] Go Back N ( C++ / Java )
-    - [ ] Sliding Window ( C++ / Java )
+    - [ ] Selective Repeat ( C++ / Java )
 - [ ] UDP Programming in C++ 
     - [ ] UDP File Transfer
 - [ ] TCP Programming in C++
