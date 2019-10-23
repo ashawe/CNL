@@ -19,16 +19,18 @@
 # Commands for BGP ( exterior gateway protocol )
 
 - machine 1
-    router bgp 100
-    network 70.0.0.0 mask 255.0.0.0
-    network 20.0.0.0 mask 255.0.0.0
-    neighbor 8.8.8.2 remote-as 200
+
+        router bgp 100
+        network 70.0.0.0 mask 255.0.0.0
+        network 20.0.0.0 mask 255.0.0.0
+        neighbor 8.8.8.2 remote-as 200
 
 - machine 2
-    router bgp 200 // enters bgp configuration
-    network 60.0.0.0 mask 255.0.0.0 //broadcast networks
-    network 10.0.0.0 mask 255.0.0.0 
-    neighbor 8.8.8.1 remote-as 100 // declare neighbor
+    
+        router bgp 200 // enters bgp configuration
+        network 60.0.0.0 mask 255.0.0.0 //broadcast networks
+        network 10.0.0.0 mask 255.0.0.0 
+        neighbor 8.8.8.1 remote-as 100 // declare neighbor
 
 
 ### NOTE
