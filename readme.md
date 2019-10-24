@@ -86,15 +86,16 @@ Each topics will have additional study materials and links inside their respecti
 - [ ] Sliding Window
     - [ ] Go Back N ( C++ / Java )
     - [ ] Selective Repeat ( C++ / Java )
-- [ ] UDP Programming in C++ 
-    - [ ] UDP File Transfer
-- [ ] TCP Programming in C++
-    - [ ] TCP File Transfer & Arithmatic
+- [x] UDP Programming in C++ 
+    - [x] UDP File Transfer
+- [x] TCP Programming in C++
+    - [x] TCP File Transfer
+    - [ ] TCP Arithmatic
 - [ ] UDP & TCP Programming in JAVA
     - [ ] Peer to Peer Chat
     - [ ] Multi User Chat
 - [x] What is TCL & Syntax of TCL
-- [ ] NS2
+- [x] NS2
     - [x] NS2 Basics
     - [x] Simple with 3 nodes: TCP/FTP
     - [x] Complex ( TCP as well as UDP )
