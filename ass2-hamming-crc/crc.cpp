@@ -4,8 +4,6 @@
 #include<algorithm>
 using namespace std;
 
-
-
 deque<bool> getDeque(string input)
 {
     deque<bool> result;
@@ -23,41 +21,44 @@ deque<bool> findCRC(string bin, string key, string CRC, bool isCheck)
     int keyLen = strlen(key.c_str());
 
     if(!isCheck)
-        // Attaching key - 1 number of 0's behind data word
+        // Attaching ( key-1 ) number of 0's behind data word
         for( int i = 0; i < keyLen-1; i++ )
         {
             bin += '0';
         }
     else
     {
+        // if checking CRC, concat crc instead of key
         for( int i = 0; i < keyLen; i++ )
         {
             bin += CRC[i];
         }
     }
-    
 
     deque<bool> divisor = getDeque(key);
     deque<bool> divident = getDeque(bin);
     deque<bool> remainder;
-    deque<bool> currentDivisor; // length of key; part of Divident which we want to exor
+    deque<bool> currentDivisor; // length of key; part of Divident which we want to xor
     string quotient;
 
-    for (int i = 0; i < divisor.size(); i++)
+    // copying ( key length ) part from divident for xor-ing with the key
+    for (int i = 0; i < divisor.size()-1; i++)
     {
         currentDivisor.push_back(divident.front());
         divident.pop_front();
     }
+
+    currentDivisor.push_back(divident.front());
     
     // Modulo 2
     while(! divident.empty() )
     {
+        divident.pop_front();
         remainder.clear();
         if(currentDivisor.front() == 0)
         {
             quotient += '0';
             currentDivisor.push_back(divident.front());
-            divident.pop_front();
             currentDivisor.pop_front();
             continue;
         }
@@ -71,20 +72,19 @@ deque<bool> findCRC(string bin, string key, string CRC, bool isCheck)
         remainder.pop_front();        
         currentDivisor = remainder;
         currentDivisor.push_back(divident.front());
-        divident.pop_front();
     }
 
-    if(!isCheck || quotient[quotient.length()-1] == '0')
-    {
-        // for last digit
-        quotient += '1';
-        for (int i = 0; i < divisor.size(); i++)
-        {
-            remainder.push_back( currentDivisor.front() ^ divisor[i] );
-            currentDivisor.pop_front();
-        }
-        remainder.pop_front();
-    }
+    // if(!isCheck || quotient[quotient.length()-1] == '0')
+    // {
+    //     // for last digit
+    //     quotient += '1';
+    //     for (int i = 0; i < divisor.size(); i++)
+    //     {
+    //         remainder.push_back( currentDivisor.front() ^ divisor[i] );
+    //         currentDivisor.pop_front();
+    //     }
+    //     remainder.pop_front();
+    // }
     // cout << "Quotient: " << quotient << " CRC: ";
     cout << " CRC: ";
     for (int i = 0; i < remainder.size(); i++)
