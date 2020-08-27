@@ -1,8 +1,11 @@
 # ABOUT
-    This repo is for students who want to study / complete their CN assignments / submit code folders. It will also help students better understand which path to take while studying for the assignments by themselves. I am writing this when my practical exams are going on. Therefore, you can be sure that each program will surely run and perform the task it is supposed to do. Although, you must be aware that there might be some corner cases which might get left out.
+> This repo is for students who want to study / complete their CN assignments / submit code folders. It will also help students better understand which path to take while studying for the assignments by themselves. I am writing this when my practical exams are going on. Therefore, you can be sure that each program will surely run and perform the task it is supposed to do. Although, you must be aware that there might be some corner cases which might get left out.
     
-    If you just want the codes you can go to each assignment's folder and get it.
-    If you are doing this while your lab is going on / you're studying for practicals, you might want to go through the [study plan](#study-plan) and look through the [study folder](/study) for a better understanding of the practical.
+> If you just want the codes you can go to each assignment's folder and get it.
+> If you are doing this while your lab is going on / you're studying for practicals, you might want to go through the [study plan](#study-plan) and look through the [study folder](/study) for a better understanding of the practical.
+
+## FEEL FREE TO CONTRIBUTE YOUR OWN STUDY MATERIAL TO HELP OTHER STUDENTS. CREATING A PR IS FREE!
+### I suggest at improving/adding at least one thing in this repo. 
 
 ## INDEX
 - [List of Assignments](#list-of-assignments)
@@ -109,3 +112,5 @@ Each topics will have additional study materials and links inside their respecti
     - [x] SSH using terminal
     - [x] SSH using PYTHON (SSHPASS)
 - [ ] Analyzing wireshark packets using C++
+
+## Don't forget to star and share this REPO!
